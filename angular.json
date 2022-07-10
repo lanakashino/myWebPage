@@ -13,8 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/myWebPage/",
-            "outputPath": "docs/",
+            "outputPath": "dist/my-web-page",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
