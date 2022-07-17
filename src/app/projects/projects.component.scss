@@ -1,0 +1,27 @@
+.project {
+
+}
+
+.project-img {
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 3px 9px 35px rgba(0, 0, 0, 0.15);
+  height: auto;
+  background-color: #fff;
+  /*padding-left: 0;*/
+  -webkit-transition: box-shadow 0.8s ease-out;
+  -moz-transition: box-shadow 0.8s ease-out;
+  -o-transition: box-shadow 0.8s ease-out;
+  transition: box-shadow 0.8s ease-out;
+}
+
+.project-info {
+  padding: 1em 0 10em 0;
+}
+
+.lift-hover {
+  transition: transform 0.3s ease-out;
+}
+.lift-hover:hover {
+  transform: translate(0, -5px);
+}

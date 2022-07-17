@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Compiler Construction",
+    "description": "Designed, implemented and extended a compiler for a programming language to target machine language, x64. Created, enforced and exploited abstractions formalized in programming languages.",
+    "collaborators": [
+      {
+        "name": "Lily Lin",
+        "link": ""
+      },
+      {
+        "name": "Andy Hsu",
+        "link": ""
+      }
+    ],
+    "related": [
+      {
+        "description":"CPSC 411",
+        "link": "https://www.students.cs.ubc.ca/~cs-411/2021w2/"
+      }
+    ],
+    "link": "https://github.com/lanakashino/411-Compiler",
+    "skills": ["Racket", "x86"]
+  },
+  {
+    "title": "myWebsite",
+    "description": "Reimplemented personal website with Angular.js.",
+    "collaborators": [],
+    "related": [
+      {
+        "description":"Old Webpage",
+        "link": "https://github.com/lanakashino/lanakashino.com/blob/master/pages/projects.html"
+      }
+    ],
+    "image": "images/projects/webpage.jpg",
+    "link": "https://github.com/lanakashino/myWebsite",
+    "skills": ["JavaScript", "CSS", "Html", "Angular.js"]
+  },
+  {
+    "title": "SMTP Server",
+    "description": "Implemented a simple SMTP mail exchange server following RFC 5321 specs in C. Server communicates with clients through a TCP socket, parses client commands and data input, and saves mail to valid recipient mailboxes",
+    "collaborators": [
+      {
+        "name": "Sassan Shokoohi",
+        "link": "https://github.com/sassansh"
+      }
+    ],
+    "related": [
+      {
+        "description":"CPSC 317",
+        "link": ""
+      }
+    ],
+    "image": "",
+    "link": "https://github.com/sassansh/SMTP-POP3-Servers",
+    "skills": ["C"]
+  },
+  {
+    "title": "Trainit",
+    "description": "Designed and developed a gym management application using React and Java/Spring to demonstrate understanding of relational databases. App functions included management of various customer and employee accounts, booking and canceling of training sessions, updating personal information, and searching/filtering for categories such as instructor or class type. Designed the data base with team members, creating entity relation diagrams, schemas, analysing functional dependencies and normalizing schemas to BCNF. Was personally responsible for implementing the entire back end of this project and assisting in finalization of frontend implementation.",
+    "collaborators": [
+      {
+        "name": "Claire Iacono",
+        "link": "https://github.com/ciacono"
+      },
+      {
+        "name": "Tiffany Tang",
+        "link": "https://github.com/tiffanytang320"
+      }
+    ],
+    "related": [
+      {
+        "description":"CPSC 304",
+        "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=304"
+      }
+    ],
+    "image": "images/projects/trainit.png",
+    "link": "https://github.com/ciacono/trainit",
+    "skills": ["SQL", "REST", "Spring", "Java"]
+  },
+  {
+    "title": "My Budget App",
+    "description": "v1\nCurrently in progress of shifting budget app desktop application to an android app user interface.\nv0\nA Java Swing application created as an individual project for the course CPSC 210\nFeatures:\nScheduling repeatable future transaction\ntagging transactions with categories\nmonitoring low balance\nuse an API to include changing images and quotes upon opening the program",
+    "collaborators": [],
+    "related": [],
+    "image": "images/projects/BudgetAppHome.png",
+    "link": "https://github.com/lanakashino/budgetApp",
+    "skills": ["Java"]
+  },
+  {
+    "title": "Insight UBC Web App",
+    "description": "Developed a query engine using RESTify, TTD, Testing with Mocha/Chai, TypeScript. Web App displayed and filtered information about courses and rooms in UBC, includes an additional feature which schedules courses from a given list of rooms in an optimized way. Read and parsed UBC course and room data from UBC PAIR database (JSON), and saved to disk. Built a backend to interpret queries in ENBF syntax and respond with results or informative error messages for invalid queries Web server implementation of REST endpoints.",
+    "collaborators": [
+      {
+     "name": "Derek Wong",
+      "link": "https://www.linkedin.com/in/derekcswong/"
+    }
+    ],
+    "related": [
+      {
+      "description":"CPSC 310",
+      "link": "https://github.com/ubccpsc/310"
+    }
+    ],
+    "image": "images/projects/CampusExplorer.png",
+    "link": "https://github.com/lanakashino/InsightUBC",
+    "skills": ["Typescript", "JSON"]
+  },
+  {
+    "title": "Image Processing (Pruning)",
+    "description": "Implemented a selective image pixelation algorithm using binary tree data structure. Pixelation (tree pruning) threshold was based off the diversity of pixel colors of a given section in C++.",
+    "collaborators": [
+      {
+        "name": "Derek Wong",
+        "link": "https://www.linkedin.com/in/derekcswong/"
+      }
+    ],
+    "related": [
+      {
+        "description":"CPSC 221",
+        "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=221"
+      }
+    ],
+    "image": "images/projects/pruneImage.png",
+    "link": "https://github.com/lanakashino/PruneImage",
+    "skills": ["C++"]
+  },
+  {
+    "title": "Multipoint Floodfill Algorithm",
+    "description": "Used BFS and DFS to create different multipoint flood fill animations in C++.",
+    "collaborators": [],
+    "related": [
+      {
+        "description":"CPSC 221",
+        "link": "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=221"
+      }
+    ],
+    "image": "images/projects/dfs_solid.gif",
+    "link": "",
+    "skills": ["C++"]
+  },
+  {
+    "title": "DIY Mechanical Hand",
+    "description": "DIY robotic hand from bike chains, springs, servomotors, and mounting plates that was programmed in C using a MSP430 microcontroller to open and close on the press of a button.",
+    "collaborators": [],
+    "related": [
+      {
+        "description":"PHYS 319",
+        "link": "https://www.phas.ubc.ca/~michal/phys319/"
+      }
+    ],
+    "image": "images/projects/DIYhand.png",
+    "link": "https://github.com/lanakashino/mechanicalHand",
+    "alt-links": [
+      {
+        "icon": "fa-video",
+        "link": "https://www.youtube.com/watch?v=Fij-vtdi0W4"
+      }
+    ],
+    "skills": ["C"]
+  }
+
+]

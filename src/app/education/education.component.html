@@ -1,1 +1,41 @@
-<p>education works!</p>
+<header class="nav">
+  <h1 class="page-header">
+    Education
+  </h1>
+</header>
+
+<div class="contents">
+  <div class="education">
+    <div class="entry" *ngFor="let educationItem of education">
+      <div class="d-flex flex-column">
+        <div class="d-flex justify-content-between">
+          <h4>{{educationItem.title}}</h4>
+          <h4>{{educationItem.dateRange}}</h4>
+        </div>
+        <div class="mr-auto">
+          <p>{{educationItem.institution}}</p>
+        </div>
+        <ngb-accordion class="collapsible">cd
+          <ngb-panel title="{{courseCluster.name}}"
+                     *ngFor="let courseCluster of educationItem.transcript">
+            <ng-template ngbPanelContent>
+              <ul id="courseCluster.code">
+                <li *ngFor="let course of courseCluster.courses">{{course}}</li>
+              </ul>
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<h5 class="collapsible-toggle collapsed"-->
+<!--    (click)="collapse{{courseCluster.code}}.toggle()"-->
+<!--    [attr.aria-expanded]="!gfg">-->
+<!--  {{courseCluster.name}}-->
+<!--</h5>-->
+<!--<ul #collapse{{courseCluster.code}}="ngbCollapse"-->
+<!--    [(ngbCollapse)]="gfg" *ngFor="let course of courseCluster.courses">-->
+<!--  <li>{{course}}</li>-->
+<!--</ul>-->

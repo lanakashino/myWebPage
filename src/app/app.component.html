@@ -1,33 +1,47 @@
-<nav class = "navbar navbar-expand-sm navbar-light fixed-top" id="myTopNav">
-  <a class="navbar-brand" href="/">Lana Kashino</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fa fa-bars"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <div class="navbar-nav ml-auto" >
-      <a class="nav-item nav-link active" href="/">Home</a>
-      <a class="nav-item nav-link" href="/projects">Projects</a>
-      <a class="nav-item nav-link" href="/experiences">Experiences</a>
-      <a class="nav-item nav-link" href="/education">Education</a>
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light">
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" href="#">Lana Kashino</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links class="">
+    <!-- Links -->
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link waves-light" href="/" mdbWavesEffect>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" href="/projects" mdbWavesEffect>Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" href="/experiences" mdbWavesEffect>Experiences</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" href="/education" mdbWavesEffect>Education</a>
+      </li>
+    </ul>
+  </links>
+</mdb-navbar>
+
+<div id="page-container">
+  <div id="content-wrap">
+    <router-outlet></router-outlet>
+  </div>
+
+  <footer class="text-end">
+    <div class="social-medias">
+      <a href="mailto:lanakashino@gmail.com"
+      ><i class="fas fa-envelope fa-lg"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/lanakashino/"
+      ><i class="fab fa-linkedin fa-lg"></i
+      ></a>
+      <a href="https://github.com/lanakashino"
+      ><i class="fab fa-github-alt fa-lg"></i
+      ></a>
     </div>
-  </div>
-</nav>
-
-<router-outlet></router-outlet>
-
-<footer>
-  <div class="social-medias">
-    <a href="mailto:lanakashino@gmail.com"
-    ><i class="fas fa-envelope fa-lg"></i
-    ></a>
-    <a href="https://www.linkedin.com/in/lanakashino/"
-    ><i class="fab fa-linkedin fa-lg"></i
-    ></a>
-    <a href="https://github.com/lanakashino"
-    ><i class="fab fa-github-alt fa-lg"></i
-    ></a>
-  </div>
-</footer>
+  </footer>
+</div>
 
 
 

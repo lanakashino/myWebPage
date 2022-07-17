@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Bachelor of Computer Science (Integrated Computer Science)",
+    "dateRange": "2019-Present",
+    "institution": "University of British Columbia",
+    "transcript": [
+      {
+        "name": "Computer Science Courses",
+        "code": "CPSC",
+        "courses": [
+          "CPSC 406: Computational Optimization",
+          "CPSC 411: Introduction to Compiler Construction",
+          "CPSC 425: Computer Vision",
+          "CPSC 302: Numerical Computation for Algebraic Problems",
+          "CPSC 311: Definition of Programming Languages",
+          "CPSC 313: Computer Hardware and Operating Systems",
+          "CPSC 317: Internet Computing",
+          "CPSC 320: Intermediate Algorithm Design and Analysis",
+          "CPSC 322: Introduction to Artificial Intelligence",
+          "CPSC 304: Introduction to Relational Databases",
+          "CPSC 310: Introduction to Software Engineering",
+          "COGS 200: Introduction to Cognitive Systems",
+          "CPSC 210: Software Construction",
+          "CPSC 213: Introduction to Computer Systems",
+          "CPSC 221: Basic Algorithms and Data Structures",
+          "CPSC 121: Models of Computation",
+          "CPSC 110: Computation, Programs, and Programming"
+        ]
+      },
+      {
+        "name": "Bridging Module (Statistics)",
+        "code": "BM",
+        "courses": [
+          "STAT 306: Finding Relationships in Data",
+          "MATH 302: Introduction to Probability",
+          "STAT 305: Introduction to Statistical Inference",
+          "STAT 200: Elementary Statistics for Applications"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "B.Sc. Honours Biophysics",
+    "dateRange": "2014-2019",
+    "institution": "University of British Columbia",
+    "transcript": [
+      {
+        "name": "Physics Courses",
+        "code": "PHYS",
+        "courses": [
+          "PHYS 499: Honours Thesis",
+          "PHYS 405: Radiation Biophysics",
+          "PHYS 404: Introduction to Medical Physics",
+          "PHYS 438: Zoological Physics",
+          "PHYS 304: Introduction to Quantum Mechanics",
+          "PHYS 319: Electronics Laboratory",
+          "PHYS 305: Introduction to Biophysics",
+          "PHYS 301: Electricity and Magnetism",
+          "PHYS 216: Mechanics I",
+          "PHYS 229: Intermediate Experimental Physics II",
+          "PHYS 203: Thermal Physics",
+          "PHYS 219: Intermediate Experimental Physics I",
+          "PHYS 200: Relativity and Quanta"
+        ]
+      },
+      {
+        "name": "Math Courses",
+        "code": "MATH",
+        "courses": [
+          "MATH 361: Introduction to Mathematical Biology",
+          "MATH 318: Probability with Physical Applications",
+          "MATH 316: Elementary Differential Equations II",
+          "MATH 300: Introduction to Complex Variables",
+          "MATH 215: Elementary Differential Equations I",
+          "MATH 221: Matrix Algebra",
+          "MATH 217: Multivariable and Vector Calculus"
+        ]
+      },
+      {
+        "name": "Biology and Chemistry Courses",
+        "code": "BIOC",
+        "courses": [
+          "CHEM 305: Biophysical Chemistry",
+          "BIOC 302: General Biochemistry",
+          "BIOC 301: Biochemistry Laboratory",
+          "CHEM 205: Physical Chemistry",
+          "BIOL 201: Introduction to Biochemistry",
+          "CHEM 235: Organic Chemistry Laboratory",
+          "CHEM 233: Organic Chemistry for the Biological Sciences",
+          "BIOL 200: Fundamentals of Cell Biology",
+          "BIOL 140: Laboratory Investigations in Life Science"
+        ]
+      },
+      {
+        "name": "Electives",
+        "code": "ELEC",
+        "courses": [
+          "PSYC 350A: Psychological Aspects of Human Sexuality",
+          "PSYC 331: Forensic Psychology",
+          "PSYC 102: Introduction to Developmental, Social, Personality, and Clinical Psychology",
+          "PSYC 101: Introduction to Biological and Cognitive Psychology",
+          "ENGL 112: Strategies for University Writing",
+          "ENGL 110: Approaches to Literature and Culture"
+        ]
+      }
+    ]
+  }
+]

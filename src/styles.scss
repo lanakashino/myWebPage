@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// MDB SCSS
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+// Color
+$accent-color: #c7bda3;
+$icon-color: #373934;
+
+// General
+img {
+  width: 100%;
+}
+
+.page-header {
+  font-size: 2.5em;
+  width: 730px;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.5em;
+  margin-top: 4em;
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  padding: 0;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+
+i {
+  color: $icon-color;
+}
