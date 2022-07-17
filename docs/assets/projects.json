@@ -23,7 +23,7 @@
   },
   {
     "title": "myWebsite",
-    "description": "Reimplemented personal website with Angular.js.",
+    "description": "Reimplemented personal website as an Angular App.",
     "collaborators": [],
     "related": [
       {
@@ -33,7 +33,7 @@
     ],
     "image": "images/projects/webpage.jpg",
     "link": "https://github.com/lanakashino/myWebsite",
-    "skills": ["JavaScript", "CSS", "Html", "Angular.js"]
+    "skills": ["CSS", "Html", "Typescript"]
   },
   {
     "title": "SMTP Server",

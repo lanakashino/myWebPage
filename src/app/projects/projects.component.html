@@ -13,18 +13,18 @@
   <div class="project-info">
     <h5>{{project.title}}</h5>
     <p>{{project.description}}</p>
-    <div ng-if="project.skills.length">
+    <div *ngIf="project.skills.length">
       <span>Skills: </span>
       <span>{{getSkills(project.skills)}}</span>
     </div>
-    <div ng-if="project.collaborators.length">
+    <div *ngIf="project.collaborators.length">
       <span>Collaborator(s):</span>
       <span *ngFor="let collaborator of project.collaborators">
             <a href="{{collaborator.link}}">{{collaborator.name}}</a>
         </span>
     </div>
     <div>
-      <span ng-if="project.related.length">Related Links:</span>
+      <span *ngIf="project.related.length">Related Links:</span>
       <span *ngFor="let relatedLink of project.related">
             <a href="{{relatedLink.link}}">{{relatedLink.description}} </a>
         </span>
