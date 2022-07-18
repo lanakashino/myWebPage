@@ -1,7 +1,7 @@
 [
   {
     "title": "Compiler Construction",
-    "description": "Designed, implemented and extended a compiler for a programming language to target machine language, x64. Created, enforced and exploited abstractions formalized in programming languages.",
+    "description": "Designed, implemented and extended a compiler for a programming language to target machine language, x64.\nCreated, enforced, and exploited abstractions formalized in programming languages.",
     "collaborators": [
       {
         "name": "Lily Lin",
@@ -23,17 +23,17 @@
   },
   {
     "title": "myWebsite",
-    "description": "Reimplemented personal website as an Angular App.",
+    "description": "Reimplemented personal website as an Angular App. The main driver for this reimplementation was to remove duplication and centralize content to json files such that there is a single point in change to formatting and content.",
     "collaborators": [],
     "related": [
       {
-        "description":"Old Webpage",
-        "link": "https://github.com/lanakashino/lanakashino.com/blob/master/pages/projects.html"
+        "description":"Old Webpage Implementation",
+        "link": "https://github.com/lanakashino/myWebPageHtml"
       }
     ],
     "image": "images/projects/webpage.jpg",
     "link": "https://github.com/lanakashino/myWebsite",
-    "skills": ["CSS", "Html", "Typescript"]
+    "skills": ["CSS", "HTML", "Typescript"]
   },
   {
     "title": "SMTP Server",
@@ -79,7 +79,7 @@
   },
   {
     "title": "My Budget App",
-    "description": "v1\nCurrently in progress of shifting budget app desktop application to an android app user interface.\nv0\nA Java Swing application created as an individual project for the course CPSC 210\nFeatures:\nScheduling repeatable future transaction\ntagging transactions with categories\nmonitoring low balance\nuse an API to include changing images and quotes upon opening the program",
+    "description": "v1\nCurrently in progress of shifting budget app desktop application to an android app user interface.\nv0\nA Java Swing application created as an individual project for the course CPSC 210\nFeatures:\n\t- Scheduling repeatable future transaction\n\t- tagging transactions with categories\n\t- monitoring low balance\n\t- use an API to include changing images and quotes upon opening the program",
     "collaborators": [],
     "related": [],
     "image": "images/projects/BudgetAppHome.png",

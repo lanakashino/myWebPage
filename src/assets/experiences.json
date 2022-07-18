@@ -3,10 +3,11 @@
     "title": "Systems Analytics Co-op",
     "startDate": "May 2022",
     "endDate": "Current",
+    "employer": "Kardium Inc.",
     "details": [
-      "Designed and implemented architectural rework of MATLAB data classes of medical device’s procedural data.",
-      "Worked on characterization of 2 5DoF sensors as a 6DoF tool.",
-      "Coordinated hardware integration in new software use cases of an optical tracking application."],
+      "Designed and implemented architectural rework of MATLAB data classes which encapsulates and organizes procedural data for post analysis.",
+      "Debugged and characterized the performance of two 5DoF sensors as a 6DoF tool. Coordinated with mechanical engineer to assess and iterate on hardware design of tool body.",
+      "Provided consultation for mechanical design involved in new use cases of an optical tracking application. Performed usability testing and made software adjustments to improve the user experience pertaining to the new use case."],
     "icon": "fas fa-heartbeat",
     "website": "https://kardium.com/",
     "image": ""
@@ -15,6 +16,7 @@
     "title": "Full Stack Developer (Co-op)",
     "startDate": "May 2021",
     "endDate": "Aug 2021",
+    "employer": "Aquatics Informatics",
     "details": [
       "Implemented features, tests, and debugged the SaaS application, AQUARIUS Samples.",
       "Developed shell scripts to automate the collection of the cloud application’s performance data.",
@@ -27,10 +29,11 @@
     "title": "Systems Software Engineering Co-op",
     "startDate": "Sept 2020",
     "endDate": "Apr 2021",
+    "employer": "Kardium Inc.",
     "details": [
       "Took ownership of a binocular tracking project, developing an algorithm that detects an object and computes it's translational and rotational motion.",
       "Worked extensively with Open CV to perform stereo calibration on camera setup and detect features of interest from a video stream.",
-    "Additionally, assisted in data extraction from experimental procedures and expansion of MATLAB data extraction tools used in house."],
+      "Additionally, assisted in data extraction from experimental procedures and expansion of MATLAB data extraction tools used in house."],
     "icon": "fas fa-heartbeat",
     "website": "https://kardium.com/",
     "image": ""
@@ -39,10 +42,11 @@
     "title": "Research Assistant (Biophysics Lab)",
     "startDate": "Sept 2018",
     "endDate": "May 2019",
+    "employer": "Plotkin Research Group UBC",
     "details": [
       "Worked with Steve Plotkin on the Honours Thesis: Construction of a Ctenophore Husbandry System for Experimentation and Genetic Network Modeling.",
       "Participated in pioneering work on establishing the first ctenophore husbandry system for the purpose of evolutionary biology research; started with basic knowledge and limited access to Mnemiopsis leidyi.",
-    "Setup and maintained protocols of the ctenophore culturing system and documented through troubleshooting and fine tuning of the culturing system to determine viable conditions for the M. leidyi to survive."],
+      "Setup and maintained protocols of the ctenophore culturing system and documented through troubleshooting and fine tuning of the culturing system to determine viable conditions for the M. leidyi to survive."],
     "icon": "fas fa-flask",
     "website": "https://www.phas.ubc.ca/~steve/research/index_Research.html",
     "image": "images/experiences/ctenoim.png"
@@ -51,9 +55,10 @@
     "title": "Biophotonics Research Assistant",
     "startDate": "Jan",
     "endDate": "Aug 2018",
+    "employer": "HMR Biophotonics Lab",
     "details": [
       "Set up proof of concept experiments for novel laser-based multi-live-cell labeling method. Worked with fluorescent and brightfield microscopy, microscopy aided laser irradiation and culturing human cells.",
-      "Developed MatLab code for brightfield and fluorescent cell image segmentation and cell fluorescence analysis, pre and post irradiation"],
+      "Developed MatLab code for brightfield and fluorescent cell image segmentation and cell fluorescence analysis, pre and post irradiation."],
     "icon": "fas fa-flask",
     "website": "http://www.biophotonics.ca/labo/",
     "image": "images/experiences/N010WGA555-2t0.jpg"
@@ -62,10 +67,11 @@
     "title": "CHEBE Research Internship",
     "startDate": "Jan",
     "endDate": "Aug 2018",
+    "employer": "Baldwin Research Group UBC",
     "details": [
       "Worked directly with a Post-Doctoral Fellow in the laboratory investigating the bioremediation of industrial wastes using microbial consortia.",
       "Prepared bacterial enrichment cultures samples for various analysis including, flow cytometry, mineralogy and DNA sequencing.",
-    "Produced python script to analyze raw flow cytometry data to eliminate dependency on FlowJo, a flow cytometry data analysis software."],
+      "Produced python script to analyze raw flow cytometry data to eliminate dependency on FlowJo, a flow cytometry data analysis software."],
     "icon": "fas fa-flask",
     "website": "https://www.chbe.ubc.ca/profile/susan-baldwin/",
     "image": "images/experiences/chebe.png"
